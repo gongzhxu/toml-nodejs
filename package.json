@@ -2,11 +2,11 @@
   "name": "toml-nodejs",
   "version": "0.2.0",
   "description": "A TOML decoding library for Node.js",
-  "homepage": "https://github.com/huan231/toml-nodejs#readme",
-  "bugs": "https://github.com/huan231/toml-nodejs/issues",
+  "homepage": "https://github.com/gongzhxu/toml-nodejs#readme",
+  "bugs": "https://github.com/gongzhxu/toml-nodejs/issues",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/huan231/toml-nodejs.git"
+    "url": "git+https://github.com/gongzhxu/toml-nodejs.git"
   },
   "license": "MIT",
   "author": "Jan Szybowski <szybowski.jan@gmail.com>",
