@@ -1,0 +1,40 @@
+{
+  "name": "toml-nodejs",
+  "version": "0.2.0",
+  "description": "A TOML decoding library for Node.js",
+  "homepage": "https://github.com/huan231/toml-nodejs#readme",
+  "bugs": "https://github.com/huan231/toml-nodejs/issues",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/huan231/toml-nodejs.git"
+  },
+  "license": "MIT",
+  "author": "Jan Szybowski <szybowski.jan@gmail.com>",
+  "type": "module",
+  "exports": {
+    ".": "./dist/index.js"
+  },
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "rm -rf dist && tsc",
+    "lint": "eslint . --report-unused-disable-directives --ext .cjs,.ts --max-warnings 0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.16.3",
+    "@typescript-eslint/eslint-plugin": "^5.59.1",
+    "@typescript-eslint/parser": "^5.59.1",
+    "eslint": "^8.39.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "^2.8.8",
+    "typescript": "^5.0.4"
+  },
+  "engines": {
+    "node": ">=18.16"
+  }
+}
