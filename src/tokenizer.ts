@@ -353,8 +353,8 @@ export class Tokenizer {
         case undefined:
           throw new TOMLError();
         default:
-          if (!isUnicodeCharacter(char) || isControlCharacterOtherThanTab(char)) {
-            throw new TOMLError();
+          if (isControlCharacterOtherThanTab(char)) {
+             throw new TOMLError();
           }
 
           switch (delimiter) {
